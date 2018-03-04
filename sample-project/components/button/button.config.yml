@@ -1,3 +1,10 @@
-title: Example component
+title: Button
+collated: true
 context:
-    text: This is an example component!
+    text: Button
+    mod: false
+variants:
+    - name: Secondary
+      context:
+        text: secondary button
+        mod: secondary

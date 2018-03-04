@@ -60,6 +60,7 @@ nodejs強い方は2から始めてください。
 <!-- AUTO-GENERATED-CONTENT:START (DIRTREE:dir=./sample-project/&depth=1) -->
 ```
 sample-project/
+├── assets/
 ├── components/
 ├── docs/
 ├── public/
