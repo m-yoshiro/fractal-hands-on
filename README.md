@@ -46,14 +46,20 @@ Fractal -> デザインシステム用のUIを別途構築 -> リリース
 
 ## Get started
 
-1なくても動きます。
-nodejs強い方は2から始めてください。
+fractalのコマンドを使う方法。  
+グローバルにfractalをインストールしても良いのですが、
+使い切りで良いのでnpxコマンド使います。
 
-1. ツールをインストール: `npm install --save @frctl/fractal`
-1. fractalで新しいプロジェクトを作成: `npx fractal new {{ your project name }}`
-1. `cd {{ your project name }}`
-1. `npx fractal start --sync`
-1. http://localhost:3000 を開くりたい
+1. `npx @frctl/fractal new {{ your Project name }}`
+1. `cd {{ Your project name }}`
+1. `node_modules/.bin/@frctl/fractal/fractal start --sync`
+1. http://localhost:3000 を開く
+
+
+💡 **npx コマンドについて**
+
+TODO: 書く
+
 
 ### ディレクトリ構造
 
@@ -78,4 +84,5 @@ sample-project/
 ## Lessons
 
 - [lesson1](./lessons/01/README.md)
-- [lesson1](./lessons/01/README.md)
+- [lesson2](./lessons/02/README.md)
+
