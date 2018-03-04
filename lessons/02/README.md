@@ -5,7 +5,7 @@ fractalの設定を行います。
 ## fractal.jsの中身
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=../01/fractal.js) -->
-<!-- The below code snippet is automatically added from ./fractal.js -->
+<!-- The below code snippet is automatically added from ../01/fractal.js -->
 ```js
 'use strict';
 
@@ -25,16 +25,9 @@ const fractal = module.exports = require('@frctl/fractal').create();
 fractal.set('project.title', 'Sample Project');
 
 /*
- * Template engine.
- */
-fractal.components.engine('@frctl/nunjucks');
-fractal.components.set('ext', '.njk');
-
-/*
  * Tell Fractal where to look for components.
  */
 fractal.components.set('path', path.join(__dirname, 'components'));
-fractal.components.set('default.preview', '@preview');
 
 /*
  * Tell Fractal where to look for documentation pages.
@@ -84,19 +77,20 @@ hbsファイルの拡張子を`.njk`に変更する
 css, jsを読み込むために `_preview.njk`を設置します。
 
 <!-- AUTO-GENERATED-CONTENT:START (CODE:src=./components/_partials/_preview.njk) -->
+<!-- The below code snippet is automatically added from ./components/_partials/_preview.njk -->
 ```njk
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ '/main.css' | path }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | path }}">
     <title>Preview</title>
 </head>
 <body>
 
 {{ yield }}
 
-<script src="{{ '/main.js' | path }}"></script>
+<script src="{{ '/assets/main.js' | path }}"></script>
 </body>
 </html>
 ```
