@@ -3,3 +3,16 @@ context:
   button:
     text: Form button
     mod: secondary
+  buttons:
+    - text: Form button
+      mod: secondary
+    - text: Form button
+      mod: secondary
+    - text: Form button
+      mod: secondary
+    - text: Form button
+      mod: secondary
+    - text: Form button
+      mod: secondary
+    - text: Form button
+      mod: secondary
