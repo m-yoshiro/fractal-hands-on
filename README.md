@@ -62,7 +62,7 @@ fractalのコマンドを使う方法。
 
 1. `npx @frctl/fractal new {{ your Project name }}`
 1. `cd {{ Your project name }}`
-1. `node_modules/.bin/@frctl/fractal/fractal start --sync`
+1. `npx @frctl/fractal start --sync`
 1. http://localhost:3000 を開く
 
 ### ディレクトリ構造
