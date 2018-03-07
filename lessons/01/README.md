@@ -3,6 +3,11 @@
 Fractalで管理するコンテンツは2タイプ。
 それぞれさわってみます。
 
+- sample.config.yml: コンポーネントの設定
+- sample.hbs: htmlを書くファイル。config.ymlの値を参照できる。
+
+## sampleコンポーネントをいじる
+
 <!-- AUTO-GENERATED-CONTENT:START (DIRTREE:dir=./components) -->
 ```
 components/
@@ -11,11 +16,6 @@ components/
   └── example.hbs
 ```
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-- sample.config.yml: コンポーネントの設定
-- sample.hbs: htmlを書くファイル。config.ymlの値を参照できる。
-
-## sampleコンポーネントをいじる
 
 1. hbsをいじる。config.ymlのtextをいじる
 1. 表示を確認する
