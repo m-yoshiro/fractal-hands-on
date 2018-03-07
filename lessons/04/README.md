@@ -87,8 +87,8 @@ context:
 
 ```njk
 <section>
-  {% for component in contents %}
-    {% render "@" + component, config%}
+  {% for content in contents %}
+    {% render "@" + content.component, content.config%}
   {% endfor %}
 </section>
 ```
