@@ -1,0 +1,16 @@
+<form action="">
+  <input type="text">
+  {% render "@button" %}
+
+  {# variantsを直接指定 #}
+  {% render "@button--warning" %}
+
+  {# form.config.ymlの値を挿入する #}
+  {% render "@button", button %}
+
+  {# ループもできる #}
+  {% for button in buttons %}
+    {% render "@button", button %}
+  {% endfor %}
+
+</form>

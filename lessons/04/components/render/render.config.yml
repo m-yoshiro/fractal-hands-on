@@ -1,0 +1,7 @@
+title: rendertest
+context:
+  contents:
+    - component: button
+      config:
+        - text: buttttttton
+    - component: form

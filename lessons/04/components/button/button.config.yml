@@ -1,0 +1,15 @@
+title: Button
+collated: true
+context:
+    text: Button
+    mod: false
+variants:
+    - name: Secondary
+      context:
+        text: secondary button
+        mod: secondary
+    - name: Secondary
+      context:
+        text: warning button
+        mod: warning
+

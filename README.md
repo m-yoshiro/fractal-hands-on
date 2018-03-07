@@ -87,7 +87,7 @@ sample-project/
 
 ## Lessons
 
-- [lesson1](./lessons/01/README.md)
-- [lesson2](./lessons/02/README.md)
-- [lesson3](./lessons/03/README.md)
-
+- [lesson1: Fractalをさわってみる](./lessons/01/README.md)
+- [lesson2: Fractalの設定](./lessons/02/README.md)
+- [lesson3: コンポーネントの作成](./lessons/03/README.md)
+- [lesson4](./lessons/04/README.md)
