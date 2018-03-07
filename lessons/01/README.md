@@ -3,10 +3,10 @@
 Fractalで管理するコンテンツは2タイプ。
 それぞれさわってみます。
 
-- sample.config.yml: コンポーネントの設定
-- sample.hbs: htmlを書くファイル。config.ymlの値を参照できる。
-
 ## sampleコンポーネントをいじる
+
+- `sample.config.yml`: コンポーネントの設定
+- `sample.hbs`: htmlを書くファイル。
 
 <!-- AUTO-GENERATED-CONTENT:START (DIRTREE:dir=./components) -->
 ```
